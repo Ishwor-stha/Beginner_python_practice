@@ -59,3 +59,20 @@ def odd_numbers(numbers):
     
     
 odd_numbers([1,2,3,4,5])
+
+# Working with tuple/tuple unpacking using function
+
+          #  name           hour    name        hour name      hour name        hour
+name_hour=[('Ishwor shrestha',5),('Suman magar',8),('Gopal dahal',10),('Saroj shrestha',7)]# creating a tuple
+def emoloyee_of_the_week(details):
+    new_hour=0
+    new_name=''
+    for (name,hour) in details:#tuple unpacking by passig value to name and hour variable ie.name=Ishwor,hour=8
+        if hour>new_hour:
+            new_hour=hour
+            new_name=name
+    print(f"The emoloyee of the week with {new_hour}hr is {new_name}")
+    
+emoloyee_of_the_week(name_hour)#passing the tuple list to a function
+    
+    

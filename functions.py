@@ -73,6 +73,6 @@ def emoloyee_of_the_week(details):
             new_name=name
     print(f"The emoloyee of the week with {new_hour}hr is {new_name}")
     
-emoloyee_of_the_week(name_hour)#passing the tuple list to a function
-    
-    
+#emoloyee_of_the_week(name_hour)#passing the tuple list to a function
+
+
